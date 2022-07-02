@@ -1,0 +1,30 @@
+{
+  "companies": [
+    {
+      "nome": "Sonae",
+      "imagem": "https://github.com/VascoRegal/MAS/blob/master/Projeto/pokeAppFinalVersion/images/sonae.jpg",
+      "descricao": "Supporter of this project"
+    },
+    {
+      "nome": "BuyAway",
+      "imagem": "https://github.com/VascoRegal/MAS/blob/master/Projeto/pokeAppFinalVersion/images/buyaway.png",
+      "descricao": "Founder's of this plataform"
+    },
+    {
+      "nome": "Worten",
+      "imagem": "https://github.com/VascoRegal/MAS/blob/master/Projeto/pokeAppFinalVersion/images/wortenlogo.jpg",
+      "descricao": "Check their awesome new products"
+
+    },
+    {
+      "nome": "SportZone",
+      "imagem": "https://github.com/VascoRegal/MAS/blob/master/Projeto/pokeAppFinalVersion/images/sptz.png",
+      "descricao": "Check ou their new collection of running shoes"
+    },
+    {
+      "nome": "Continente",
+      "imagem": "https://github.com/VascoRegal/MAS/blob/master/Projeto/pokeAppFinalVersion/images/continent.jpg",
+      "descricao": "The prizes are falling like snow on the winter"
+    }
+  ]
+}

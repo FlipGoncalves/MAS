@@ -1,0 +1,210 @@
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-6">
+        <h1></h1>
+      </div>
+      <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+          <li class="breadcrumb-item"><a style="cursor: pointer;" onclick="products_go()">Lista de produtos</a></li>
+        </ol>
+      </div>
+    </div>
+  </div><!-- /.container-fluid -->
+</div>
+
+<div class="content">
+
+  <!-- Default box -->
+  <div class="card card-solid">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <h3 class="d-inline-block d-sm-none prod_name"></h3>
+          <div class="col-12">
+            <img src="" class="product-image" alt="Product Image" id="prod_image">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6">
+          <h3 class="my-3 prod_name"></h3>
+          <table class="table" id="prod_desc">
+
+          </table>   
+
+          <div class="bg-gray py-2 px-3 mt-4">
+            <h2 class="mb-0" id="prod_price">
+              
+            </h2>
+            <h4 class="mt-0">
+              <small>Stock: <span id="prod_stock"></span> </small>
+            </h4>
+          </div>
+
+          <div class="mt-4 text-right">
+            <div class="btn btn-primary btn-lg " id="promo_btn" data-toggle="modal" data-target="#exampleModal">
+              Pôr em promoção
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!--<div class="row mt-4">
+        <nav class="w-100">
+          <div class="nav nav-tabs" id="product-tab" role="tablist">
+            <a class="nav-item nav-link active" id="product-desc-tab" data-toggle="tab" href="#product-desc" role="tab" aria-controls="product-desc" aria-selected="true">Description</a>
+            <a class="nav-item nav-link" id="product-comments-tab" data-toggle="tab" href="#product-comments" role="tab" aria-controls="product-comments" aria-selected="false">Comments</a>
+            <a class="nav-item nav-link" id="product-rating-tab" data-toggle="tab" href="#product-rating" role="tab" aria-controls="product-rating" aria-selected="false">Rating</a>
+          </div>
+        </nav>
+        <div class="tab-content p-3" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="product-desc" role="tabpanel" aria-labelledby="product-desc-tab"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae condimentum erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed posuere, purus at efficitur hendrerit, augue elit lacinia arcu, a eleifend sem elit et nunc. Sed rutrum vestibulum est, sit amet cursus dolor fermentum vel. Suspendisse mi nibh, congue et ante et, commodo mattis lacus. Duis varius finibus purus sed venenatis. Vivamus varius metus quam, id dapibus velit mattis eu. Praesent et semper risus. Vestibulum erat erat, condimentum at elit at, bibendum placerat orci. Nullam gravida velit mauris, in pellentesque urna pellentesque viverra. Nullam non pellentesque justo, et ultricies neque. Praesent vel metus rutrum, tempus erat a, rutrum ante. Quisque interdum efficitur nunc vitae consectetur. Suspendisse venenatis, tortor non convallis interdum, urna mi molestie eros, vel tempor justo lacus ac justo. Fusce id enim a erat fringilla sollicitudin ultrices vel metus. </div>
+          <div class="tab-pane fade" id="product-comments" role="tabpanel" aria-labelledby="product-comments-tab"> Vivamus rhoncus nisl sed venenatis luctus. Sed condimentum risus ut tortor feugiat laoreet. Suspendisse potenti. Donec et finibus sem, ut commodo lectus. Cras eget neque dignissim, placerat orci interdum, venenatis odio. Nulla turpis elit, consequat eu eros ac, consectetur fringilla urna. Duis gravida ex pulvinar mauris ornare, eget porttitor enim vulputate. Mauris hendrerit, massa nec aliquam cursus, ex elit euismod lorem, vehicula rhoncus nisl dui sit amet eros. Nulla turpis lorem, dignissim a sapien eget, ultrices venenatis dolor. Curabitur vel turpis at magna elementum hendrerit vel id dui. Curabitur a ex ullamcorper, ornare velit vel, tincidunt ipsum. </div>
+          <div class="tab-pane fade" id="product-rating" role="tabpanel" aria-labelledby="product-rating-tab"> Cras ut ipsum ornare, aliquam ipsum non, posuere elit. In hac habitasse platea dictumst. Aenean elementum leo augue, id fermentum risus efficitur vel. Nulla iaculis malesuada scelerisque. Praesent vel ipsum felis. Ut molestie, purus aliquam placerat sollicitudin, mi ligula euismod neque, non bibendum nibh neque et erat. Etiam dignissim aliquam ligula, aliquet feugiat nibh rhoncus ut. Aliquam efficitur lacinia lacinia. Morbi ac molestie lectus, vitae hendrerit nisl. Nullam metus odio, malesuada in vehicula at, consectetur nec justo. Quisque suscipit odio velit, at accumsan urna vestibulum a. Proin dictum, urna ut varius consectetur, sapien justo porta lectus, at mollis nisi orci et nulla. Donec pellentesque tortor vel nisl commodo ullamcorper. Donec varius massa at semper posuere. Integer finibus orci vitae vehicula placerat. </div>
+        </div>
+      </div>-->
+    </div>
+    <!-- /.card-body -->
+  </div>
+  <!-- /.card -->
+
+</div>
+<!-- /.content -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Lançar Promoção</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="sale_name">Nome</label>
+            <input type="text" class="form-control" id="promo_name" required>
+          </div>
+          <div class="form-group">
+            <label>Percentagem</label>
+            <input type="number" class="form-control" id="promo_percentage" min="0" max="100"/>
+          </div>
+          <div class="form-group">
+            <label for="sale_startDate">Data de Início</label>
+            <div class="input-group date" id="datetimepicker5" data-target-input="nearest">
+              <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker5" id="promo_date_i" required/>
+              <div class="input-group-append" data-target="#datetimepicker5" data-toggle="datetimepicker">
+                <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="sale_endDate">Data de Fim</label>
+            <div class="input-group date" id="datetimepicker6" data-target-input="nearest">
+              <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker6" id="promo_date_f" required/>
+              <div class="input-group-append" data-target="#datetimepicker6" data-toggle="datetimepicker">
+                <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" id="prod_promo">Criar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- page script -->
+<script>
+  $(function() {
+    var ref_image = "https://"+prod_link[0]["imagem"];
+    var desc = '';
+    $(".prod_name").text(prod_link[0]["nome"]);
+    $("#prod_stock").text(prod_link[0]["quantidade"]);
+    if (prod_link[0]["promocao"]){
+      $("#prod_price").html('<del>'+ prod_link[0]["preco"] +'€</del> '+ prod_link[0]["precopromocao"] +' €');
+      $("#promo_btn").hide();
+    }
+    else
+      $("#prod_price").text(prod_link[0]["preco"] +' €');
+    $("#prod_image").attr("src",ref_image);
+
+    desc += '<tr><td>Referência:</td><td>'+prod_link[0]["referencia"]+'</td></tr>';
+    if (prod_link[0]["cpu"] !== undefined)
+      desc += '<tr><td>CPU:</td><td>'+prod_link[0]["cpu"]+'</td></tr>';
+    if (prod_link[0]["gpu"] !== undefined)
+      desc += '<tr><td>GPU:</td><td>'+prod_link[0]["gpu"]+'</td></tr>';
+
+    desc += '<tr><td>RAM:</td><td>'+prod_link[0]["ram"].replace("RAM:","")+'</td></tr>';
+    desc += '<tr><td>Ecrã:</td><td>'+prod_link[0]["ecra"]+'</td></tr>';
+    desc += '<tr><td>Memória:</td><td>'+prod_link[0]["memoria"]+'</td></tr>';
+    $("#prod_desc").html(desc);
+
+    $('#datetimepicker5').datetimepicker({
+      format: 'DD/MM/YYYY'
+    });
+    $('#datetimepicker6').datetimepicker({
+        useCurrent: false,
+        format: 'DD/MM/YYYY'
+    });
+    $("#datetimepicker5").on("change.datetimepicker", function (e) {
+        $('#datetimepicker6').datetimepicker('minDate', e.date);
+    });
+    $("#datetimepicker6").on("change.datetimepicker", function (e) {
+        $('#datetimepicker5').datetimepicker('maxDate', e.date);
+    });
+  });
+
+  $("#prod_promo").click(function(){
+    if ($("#promoname").val() == "" || $("#promo_date_i").val() == "" || $("#promo_date_f").val() == ""|| $("#promo_percentage").val() == ""){
+      const swalWithBootstrapButtons = Swal.mixin({
+        customClass: {
+          confirmButton: 'btn btn-danger'
+        },
+        buttonsStyling: false
+      });
+      swalWithBootstrapButtons.fire(
+        'Preencha todos os campos!',
+        '',
+        'error'
+      );
+    }
+
+    else{
+      promos[$("#promo_name").val()] = [{
+        "percentagem": parseInt($("#promo_percentage").val()),
+        "data_inicio": $("#promo_date_i").val(),
+        "data_fim": $("#promo_date_f").val(),
+        "produtos": [prod_link[0]["referencia"]]
+      }];
+
+      // Falta escrever no array de produtos a percentagem de desconto
+      helper = find_by_ref(prod_link[0]["referencia"]);
+      if (helper[2] != undefined){
+        produtos[helper[0]][helper[1]][prod_link[0]["referencia"]][0]["promocao"] = true;
+        prod_link[0]["promocao"] = true;
+        perc = parseInt($("#promo_percentage").val());
+        produtos[helper[0]][helper[1]][prod_link[0]["referencia"]][0]["precopromocao"] = parseInt(helper[2][0]["preco"]) - parseInt(helper[2][0]["preco"]) * (perc/100);
+        prod_link[0]["precopromocao"] = parseInt(helper[2][0]["preco"]) - parseInt(helper[2][0]["preco"]) * (perc/100);
+      }
+
+      Swal.fire({
+        icon: 'success',
+        title: 'A sua promoção foi lançada.',
+        showConfirmButton: true,
+        onAfterClose: () => after_promo()
+      });
+    }
+  });
+
+  function after_promo(){
+    $("#exampleModal").modal('toggle');
+    $("#prod_price").html('<del>'+ prod_link[0]["preco"] +'€</del> '+ prod_link[0]["precopromocao"] +' €');
+    $("#promo_btn").hide();
+  }
+
+</script>

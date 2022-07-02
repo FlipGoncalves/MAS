@@ -1,0 +1,1957 @@
+{
+   "informatica-e-acessorios":[
+      {
+         "i_2":[
+            {
+               "nome":"Portátil ASUS S432FL-70AM5SB2  ",
+               "referencia":"i_2",
+               "imagem":"www.worten.pt/i/3a87c20e6d58201b1313c4d3bbdb131a52fb7dfc.jpg",
+               "loja":"Worten",
+               "preco":"1299",
+               "ram":"RAM: 16 GB",
+               "gpu":"NVIDIA GeForce MX250",
+               "ecra":"14''",
+               "cpu":"Intel Core i7-10510U",
+               "memoria":"NVIDIA GeForce MX250",
+               "quantidade":"6",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_3":[
+            {
+               "nome":"Portátil Híbrido LENOVO Yoga C740-14IML-052  ",
+               "referencia":"i_3",
+               "imagem":"www.worten.pt/i/a748068c3ed68c915cb872c891e87dc630fadefd.jpg",
+               "loja":"Worten",
+               "preco":"1399",
+               "ram":"RAM: 16 GB",
+               "gpu":"Intel UHD Graphics",
+               "ecra":"14''",
+               "cpu":"Intel Core i7 10510U",
+               "memoria":"Intel UHD Graphics",
+               "quantidade":"0",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_4":[
+            {
+               "nome":"Portátil Gaming LENOVO Legion Y540-15IRH-188  ",
+               "referencia":"i_4",
+               "imagem":"www.worten.pt/i/fc3b498493e0e4087ae74e2f6515e6d01d2eec4d.jpg",
+               "loja":"Worten",
+               "preco":"899",
+               "ram":"RAM: 8 GB",
+               "gpu":"NVIDIA GeForece GTX 1650",
+               "ecra":"15.6''",
+               "cpu":"Intel Core i5-9300HF",
+               "memoria":"15.6''",
+               "quantidade":"7",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_5":[
+            {
+               "nome":"Portátil Gaming ACER Nitro 5 AN515-54-549E  ",
+               "referencia":"i_5",
+               "imagem":"www.worten.pt/i/b1f83532a07eb74ef36fbd0343585d13a50ac128.jpg",
+               "loja":"Worten",
+               "preco":"849",
+               "ram":"RAM: 8 GB",
+               "gpu":"NVIDIA GeForce GTX 1650",
+               "ecra":"15.6''",
+               "cpu":"Intel Core i5-9300H",
+               "memoria":"15.6''",
+               "quantidade":"2",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_6":[
+            {
+               "nome":"Portátil Gaming MSI GP75 Leopard10SDK-028PT  ",
+               "referencia":"i_6",
+               "imagem":"www.worten.pt/i/0eaf812ae780e47a48087669fc40bf65217c9dd5.jpg",
+               "loja":"Worten",
+               "preco":"1899",
+               "ram":"RAM: 16 GB",
+               "gpu":"NVIDIA GeForce GTX 1660 Ti",
+               "ecra":"17.3''",
+               "cpu":"Intel Core i7-10750H",
+               "memoria":"17.3''",
+               "quantidade":"1",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_7":[
+            {
+               "nome":"Portátil LENOVO IdeaPad 3 15ADA05  ",
+               "referencia":"i_7",
+               "imagem":"www.worten.pt/i/d31dc303603fd8e24af1a744054c02f08b3e7654.jpg",
+               "loja":"Worten",
+               "preco":"349",
+               "ram":"RAM: 4 GB",
+               "gpu":"AMD Radeon Graphics",
+               "ecra":"15.6''",
+               "cpu":"AMD Radeon Graphics",
+               "memoria":"AMD Radeon Graphics",
+               "quantidade":"6",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_8":[
+            {
+               "nome":"Portátil HUAWEI Matebook D  ",
+               "referencia":"i_8",
+               "imagem":"www.worten.pt/i/2ae33b2734ac59e8d6ccfa8788c2a377aa2a0599.jpg",
+               "loja":"Worten",
+               "preco":"699",
+               "ram":"RAM: 8 GB",
+               "gpu":"AMD Radeon Vega 8",
+               "ecra":"14''",
+               "cpu":"AMD Radeon Vega 8",
+               "memoria":"AMD Radeon Vega 8",
+               "quantidade":"3",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_9":[
+            {
+               "nome":"Portátil HP 15S-FQ1020NP  ",
+               "referencia":"i_9",
+               "imagem":"www.worten.pt/i/110533b80558bb518e8d007ba250e47b877f2773.jpg",
+               "loja":"Worten",
+               "preco":"549",
+               "ram":"RAM: 8 GB",
+               "gpu":"Intel UHD Graphics",
+               "ecra":"15.6''",
+               "cpu":"Intel Core i3-1005G1",
+               "memoria":"Intel UHD Graphics",
+               "quantidade":"7",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_10":[
+            {
+               "nome":"Portátil Gaming LENOVO Ideapad L340-15IRH-190  ",
+               "referencia":"i_10",
+               "imagem":"www.worten.pt/i/97d1792e359d02dbf9a380a63c047c385698903d.jpg",
+               "loja":"Worten",
+               "preco":"799",
+               "ram":"RAM: 8 GB",
+               "gpu":"NVIDIA GeForce GTX 1050",
+               "ecra":"15.6''",
+               "cpu":"Intel Core i5-9300HF",
+               "memoria":"15.6''",
+               "quantidade":"7",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_11":[
+            {
+               "nome":"Portátil HUAWEI Matebook D  ",
+               "referencia":"i_11",
+               "imagem":"www.worten.pt/i/1dc60f16092d91bad670a60931e3481dfd596d9b.jpg",
+               "loja":"Worten",
+               "preco":"599",
+               "ram":"RAM: 8 GB",
+               "gpu":"AMD Radeon Vega 8",
+               "ecra":"15.6''",
+               "cpu":"AMD Radeon Vega 8",
+               "memoria":"AMD Radeon Vega 8",
+               "quantidade":"9",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_12":[
+            {
+               "nome":"Portátil ACER Aspire 3 A315-54K-318Y  ",
+               "referencia":"i_12",
+               "imagem":"www.worten.pt/i/2396926edc5fa36848df847feef1539e086cf8d2.jpg",
+               "loja":"Worten",
+               "preco":"499",
+               "ram":"RAM: 8 GB",
+               "gpu":"Intel UHD Graphics 620",
+               "ecra":"15.6''",
+               "cpu":"Intel Core i3-8130U",
+               "memoria":"Intel UHD Graphics 620",
+               "quantidade":"3",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_13":[
+            {
+               "nome":"MICROSOFT Surface Go 2  ",
+               "referencia":"i_13",
+               "imagem":"www.worten.pt/i/67e76724afd03ce657ea863dc25d5c6aad62be70.jpg",
+               "loja":"Worten",
+               "preco":"639",
+               "ram":"RAM: 8 GB",
+               "gpu":"GPU Integrada",
+               "ecra":"10.5''",
+               "cpu":"Intel Pentium Gold 4425Y",
+               "memoria":"Intel HD Graphics 615",
+               "quantidade":"6",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_14":[
+            {
+               "nome":"Portátil LENOVO IdeaPad 3 15IML05-737  ",
+               "referencia":"i_14",
+               "imagem":"www.worten.pt/i/86753787fc9653305d1b9caf26919b704133c08f.jpg",
+               "loja":"Worten",
+               "preco":"699",
+               "ram":"RAM: 8 GB",
+               "gpu":"NVIDIA GeForce MX130",
+               "ecra":"15.6''",
+               "cpu":"Intel Core i5-10210U",
+               "memoria":"NVIDIA GeForce MX130",
+               "quantidade":"8",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_15":[
+            {
+               "nome":"Portátil ASUS ZenBook UM433DA-R5DV8SB1  ",
+               "referencia":"i_15",
+               "imagem":"www.worten.pt/i/6ef1f354a01ccf2b4baf86779631da9c14e9a901.jpg",
+               "loja":"Worten",
+               "preco":"799",
+               "ram":"RAM: 8 GB",
+               "gpu":"AMD Radeon Vega 8",
+               "ecra":"14''",
+               "cpu":"AMD Radeon Vega 8",
+               "memoria":"AMD Radeon Vega 8",
+               "quantidade":"0",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_16":[
+            {
+               "nome":"Portátil LENOVO IdeaPad 3 15IML05  ",
+               "referencia":"i_16",
+               "imagem":"www.worten.pt/i/d31dc303603fd8e24af1a744054c02f08b3e7654.jpg",
+               "loja":"Worten",
+               "preco":"803",
+               "ram":"RAM: 8 GB",
+               "gpu":"NVIDIA GeForce MX330",
+               "ecra":"15.6''",
+               "cpu":"Intel Core i7-10510U",
+               "memoria":"NVIDIA GeForce MX330",
+               "quantidade":"2",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_17":[
+            {
+               "nome":"MICROSOFT Surface Go 2  ",
+               "referencia":"i_17",
+               "imagem":"www.worten.pt/i/67e76724afd03ce657ea863dc25d5c6aad62be70.jpg",
+               "loja":"Worten",
+               "preco":"469",
+               "ram":"RAM: 4 GB",
+               "gpu":"GPU Integrada",
+               "ecra":"10.5''",
+               "cpu":"Intel Pentium Gold 4425Y",
+               "memoria":"Intel HD Graphics 615",
+               "quantidade":"1",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_18":[
+            {
+               "nome":"MICROSOFT Laptop 3 - VGY-00010   ",
+               "referencia":"i_18",
+               "imagem":"www.worten.pt/i/ddae48e4fbbf97b32b37d24595e9e7f596c6fa30.jpg",
+               "loja":"Worten",
+               "preco":"1048",
+               "ram":"RAM: 8 GB",
+               "gpu":"Intel Iris Plus 650",
+               "ecra":"13.5''",
+               "cpu":"Intel Core i5-1035G7",
+               "memoria":"Intel Iris Plus 650",
+               "quantidade":"7",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_19":[
+            {
+               "nome":"Portátil ASUS ZenBook Edition 30 - UX334FL-78DM5BP1  ",
+               "referencia":"i_19",
+               "imagem":"www.worten.pt/i/2e17edcf2a93b04eb4a8e07d3bc6b78a6cdea652.jpg",
+               "loja":"Worten",
+               "preco":"1799",
+               "ram":"RAM: 16 GB",
+               "gpu":"NVIDIA GeForce MX 250",
+               "ecra":"13.3''",
+               "cpu":"Intel Core i7-8565U",
+               "memoria":"NVIDIA GeForce MX 250",
+               "quantidade":"8",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_20":[
+            {
+               "nome":"Portátil ACER Aspire 1 A114-32  ",
+               "referencia":"i_20",
+               "imagem":"www.worten.pt/i/2187eeeaee77e2d90240ab39a6fb85bef35ad6fb.jpg",
+               "loja":"Worten",
+               "preco":"298",
+               "ram":"RAM: 4 GB",
+               "gpu":"Intel UHD Graphics 600",
+               "ecra":"14''",
+               "cpu":"",
+               "memoria":"Intel UHD Graphics 600",
+               "quantidade":"3",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_21":[
+            {
+               "nome":"Portátil HP PAVILION 15-CS3028NP  ",
+               "referencia":"i_21",
+               "imagem":"www.worten.pt/i/8e396b1d932a23101f0fc080ab6f4f3552f56ff4.jpg",
+               "loja":"Worten",
+               "preco":"999",
+               "ram":"RAM: 8 GB",
+               "gpu":"NVIDIA GeForce MX250",
+               "ecra":"15.6''",
+               "cpu":"Intel Core i7",
+               "memoria":"NVIDIA GeForce MX250",
+               "quantidade":"1",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_22":[
+            {
+               "nome":"MICROSOFT Surface Pro 7 - PUV-00019  ",
+               "referencia":"i_22",
+               "imagem":"www.worten.pt/i/2524e6c4b7e48d8bf67d721bc4b96cfa92eddc46.jpg",
+               "loja":"Worten",
+               "preco":"1298",
+               "ram":"RAM: 8 GB",
+               "gpu":"Intel Iris Plus",
+               "ecra":"12.3''",
+               "cpu":"Intel Core i5-1035G4",
+               "memoria":"Intel Iris Plus",
+               "quantidade":"2",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_23":[
+            {
+               "nome":"Portátil LENOVO Yoga S740-15IRH-348  ",
+               "referencia":"i_23",
+               "imagem":"www.worten.pt/i/4c89a4d8a4001f8b0a6e9a200d7417893ceeca3d.jpg",
+               "loja":"Worten",
+               "preco":"2499",
+               "ram":"RAM: 16 GB",
+               "gpu":"NVIDIA GeForce GTX 1650 Max-Q",
+               "ecra":"15.6''",
+               "cpu":"NVIDIA GeForce GTX 1650 Max-Q",
+               "memoria":"NVIDIA GeForce GTX 1650 Max-Q",
+               "quantidade":"5",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_24":[
+            {
+               "nome":"Portátil HUAWEI Matebook X Pro Refresh  ",
+               "referencia":"i_24",
+               "imagem":"www.worten.pt/i/c6f4288d7040fe693c55e9086aad656ce42ab219.jpg",
+               "loja":"Worten",
+               "preco":"1649",
+               "ram":"RAM: 8 GB",
+               "gpu":"NVIDIA GeForce MX250",
+               "ecra":"13.9''",
+               "cpu":"Intel Core i7-8565U",
+               "memoria":"NVIDIA GeForce MX250",
+               "quantidade":"0",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_25":[
+            {
+               "nome":"Portátil Gaming HP OMEN 15-DC1023NP  ",
+               "referencia":"i_25",
+               "imagem":"www.worten.pt/i/a918a167b3099c81365e6314ea7839681f7d4724.jpg",
+               "loja":"Worten",
+               "preco":"1799",
+               "ram":"RAM: 16 GB",
+               "gpu":"NVIDIA GeForce RTX 2060",
+               "ecra":"15.6''",
+               "cpu":"Intel Core i7-9750H",
+               "memoria":"15.6''",
+               "quantidade":"4",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_26":[
+            {
+               "nome":"Portátil ASUS ZenBook S13 UX392FN-78DM5AB2  ",
+               "referencia":"i_26",
+               "imagem":"www.worten.pt/i/88773bb0c88b4f67625b9e5ab2458e49bec06e73.jpg",
+               "loja":"Worten",
+               "preco":"1438",
+               "ram":"RAM: 16 GB",
+               "gpu":"NVIDIA GeForce MX 150",
+               "ecra":"13.9''",
+               "cpu":"Intel Core i7-8565U",
+               "memoria":"NVIDIA GeForce MX 150",
+               "quantidade":"6",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_27":[
+            {
+               "nome":"Portátil Híbrido HP Pavilion x360 - 14-DH0007NP - 6QE95EA  ",
+               "referencia":"i_27",
+               "imagem":"www.worten.pt/i/fab286ffc004acaa8b330ac14b3671d502d5b8e7.jpg",
+               "loja":"Worten",
+               "preco":"1099",
+               "ram":"RAM: 8 GB",
+               "gpu":"NVIDIA GeForce MX250",
+               "ecra":"14''",
+               "cpu":"Intel Core i7-8565U",
+               "memoria":"NVIDIA GeForce MX250",
+               "quantidade":"4",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_28":[
+            {
+               "nome":"Portátil HP PAVILION 15-CS3005NP  ",
+               "referencia":"i_28",
+               "imagem":"www.worten.pt/i/8e396b1d932a23101f0fc080ab6f4f3552f56ff4.jpg",
+               "loja":"Worten",
+               "preco":"1199",
+               "ram":"RAM: 8 GB",
+               "gpu":"NVIDIA GeForce GTX 1050",
+               "ecra":"15.6''",
+               "cpu":"Intel Core i7",
+               "memoria":"NVIDIA GeForce GTX 1050",
+               "quantidade":"3",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_29":[
+            {
+               "nome":"MICROSOFT Surface Pro X - MJX-00004   ",
+               "referencia":"i_29",
+               "imagem":"www.worten.pt/i/2e28c1f8814b86ec6c54b4842a40d5a15141734b.jpg",
+               "loja":"Worten",
+               "preco":"1048",
+               "ram":"RAM: 8 GB",
+               "gpu":"GPU Integrada",
+               "ecra":"13''",
+               "cpu":"Microsoft SQ1 Adreno 685",
+               "memoria":"Microsoft SQ1 Adreno 685",
+               "quantidade":"1",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_30":[
+            {
+               "nome":"MICROSOFT Laptop 3 - V4C-00010   ",
+               "referencia":"i_30",
+               "imagem":"www.worten.pt/i/1a01d769034bae7b0b362846abd2c56f37db6df6.jpg",
+               "loja":"Worten",
+               "preco":"1398",
+               "ram":"RAM: 8 GB",
+               "gpu":"Intel Iris Plus 650",
+               "ecra":"13.5''",
+               "cpu":"Intel Core i5-1035G7",
+               "memoria":"Intel Iris Plus 650",
+               "quantidade":"5",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_31":[
+            {
+               "nome":"Portátil ASUS Zenbook 14 UX434FLC  ",
+               "referencia":"i_31",
+               "imagem":"www.worten.pt/i/06298405d85b3081b8b502da7af68607eae8e19a.jpg",
+               "loja":"Worten",
+               "preco":"1499",
+               "ram":"RAM: 16 GB",
+               "gpu":"NVIDIA GeForce MX250",
+               "ecra":"14''",
+               "cpu":"Intel Core i7-10510U",
+               "memoria":"NVIDIA GeForce MX250",
+               "quantidade":"5",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_32":[
+            {
+               "nome":"Portátil Híbrido ASUS ZenBook Flip 15 UX563FD-70A05CP1  ",
+               "referencia":"i_32",
+               "imagem":"www.worten.pt/i/17802f1391e21fd982c63f26887e5fe154fbfe8d.jpg",
+               "loja":"Worten",
+               "preco":"1999",
+               "ram":"RAM: 16 GB",
+               "gpu":"NVIDIA GeForce GTX 1050 MAX Q",
+               "ecra":"15.6''",
+               "cpu":"Intel Core i7-10510U",
+               "memoria":"NVIDIA GeForce GTX 1050 MAX Q",
+               "quantidade":"8",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_33":[
+            {
+               "nome":"Portátil Gaming ASUS GU502GV-79D26AP1  ",
+               "referencia":"i_33",
+               "imagem":"www.worten.pt/i/db9e16f811eac1b1d571c68ebc102b7b9318f718.jpg",
+               "loja":"Worten",
+               "preco":"1999",
+               "ram":"RAM: 32 GB",
+               "gpu":"NVIDIA GeForce RTX 2060",
+               "ecra":"15.6''",
+               "cpu":"Intel Core i7-9750H",
+               "memoria":"15.6''",
+               "quantidade":"3",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_34":[
+            {
+               "nome":"Portátil Híbrido LENOVO Yoga Book C930  ",
+               "referencia":"i_34",
+               "imagem":"www.worten.pt/i/2cf8cb38d0d65192d3071bb9e343527fc3061915.jpg",
+               "loja":"Worten",
+               "preco":"1299",
+               "ram":"RAM: 4 GB",
+               "gpu":"GPU Integrada",
+               "ecra":"10.8''",
+               "cpu":"Intel Core i5-7Y54",
+               "memoria":"256 GB SSD",
+               "quantidade":"1",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_35":[
+            {
+               "nome":"Portátil LENOVO Yoga S740-14IIL-875  ",
+               "referencia":"i_35",
+               "imagem":"www.worten.pt/i/f926fb53f3851b738cffd9a4a6553b071da3f6fb.jpg",
+               "loja":"Worten",
+               "preco":"1599",
+               "ram":"RAM 16 GB",
+               "gpu":"NVIDIA GeForce MX 250",
+               "ecra":"14''",
+               "cpu":"Intel Core i7 1065G7",
+               "memoria":"NVIDIA GeForce MX 250",
+               "quantidade":"8",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_36":[
+            {
+               "nome":"Portátil LENOVO IdeaPad 5 14IIL05-034  ",
+               "referencia":"i_36",
+               "imagem":"www.worten.pt/i/deeca5b389f3ff86a3b5a7d05980ecbf1f6e154b.jpg",
+               "loja":"Worten",
+               "preco":"899",
+               "ram":"RAM: 8 GB",
+               "gpu":"NVIDIA GeForce MX330",
+               "ecra":"14''",
+               "cpu":"Intel Core i5-1035G1",
+               "memoria":"NVIDIA GeForce MX330",
+               "quantidade":"8",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_37":[
+            {
+               "nome":"MICROSOFT Surface Pro 7 - PUV-00004  ",
+               "referencia":"i_37",
+               "imagem":"www.worten.pt/i/edd9b0ea70ea8adfff7974d6b048f78510cc0357.jpg",
+               "loja":"Worten",
+               "preco":"1298",
+               "ram":"RAM: 8 GB",
+               "gpu":"Intel Iris Plus",
+               "ecra":"12.3''",
+               "cpu":"Intel Core i5-1035G4",
+               "memoria":"Intel Iris Plus",
+               "quantidade":"8",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_38":[
+            {
+               "nome":"MICROSOFT Surface Laptop 3 - VGZ-00010  ",
+               "referencia":"i_38",
+               "imagem":"www.worten.pt/i/5acae55d8ec2720c06340e89b148b77dec976ec7.jpg",
+               "loja":"Worten",
+               "preco":"1498",
+               "ram":"RAM: 8 GB",
+               "gpu":"AMD Radeon Vega 9",
+               "ecra":"15''",
+               "cpu":"AMD Radeon Vega 9",
+               "memoria":"AMD Radeon Vega 9",
+               "quantidade":"3",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_39":[
+            {
+               "nome":"MICROSOFT Surface Pro 7 - VNX-00004  ",
+               "referencia":"i_39",
+               "imagem":"www.worten.pt/i/9495a19f516b8de0de4dd46c83af41ea6ab96380.jpg",
+               "loja":"Worten",
+               "preco":"1498",
+               "ram":"RAM: 16 GB",
+               "gpu":"Intel Iris Plus",
+               "ecra":"12.3''",
+               "cpu":"Intel Core i7-1065G7",
+               "memoria":"Intel Iris Plus",
+               "quantidade":"2",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_40":[
+            {
+               "nome":"Portátil ASUS ZenBook UX581GV-79D26AB1  ",
+               "referencia":"i_40",
+               "imagem":"www.worten.pt/i/1bb718070a93b3e7734dfec5811c62c626730aaa.jpg",
+               "loja":"Worten",
+               "preco":"2999",
+               "ram":"RAM: 16 GB",
+               "gpu":"NVIDIA GeForce RTX 2060",
+               "ecra":"15.6''",
+               "cpu":"Intel Core i7-9750H",
+               "memoria":"NVIDIA GeForce RTX 2060",
+               "quantidade":"9",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_41":[
+            {
+               "nome":"Portátil LENOVO YOGA C940-14IIL-868  ",
+               "referencia":"i_41",
+               "imagem":"www.worten.pt/i/c8b91053353c3db904292a5c81bc4a93b1fa98ed.jpg",
+               "loja":"Worten",
+               "preco":"1999",
+               "ram":"RAM: 16 GB",
+               "gpu":"Intel Iris Plus Graphics",
+               "ecra":"14''",
+               "cpu":"i7-1065G7",
+               "memoria":"Intel Iris Plus Graphics",
+               "quantidade":"2",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_42":[
+            {
+               "nome":"MICROSOFT Surface Pro X - MNY-00004   ",
+               "referencia":"i_42",
+               "imagem":"www.worten.pt/i/2e28c1f8814b86ec6c54b4842a40d5a15141734b.jpg",
+               "loja":"Worten",
+               "preco":"1348",
+               "ram":"RAM: 8 GB",
+               "gpu":"GPU Integrada",
+               "ecra":"13''",
+               "cpu":"Microsoft SQ1 Adreno 685",
+               "memoria":"Microsoft SQ1 Adreno 685",
+               "quantidade":"5",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_43":[
+            {
+               "nome":"Portátil HP Envy 13-AQ0010NP - 7NG41EA  ",
+               "referencia":"i_43",
+               "imagem":"www.worten.pt/i/e04789910913102ad89d47318223a80c38b589c5.jpg",
+               "loja":"Worten",
+               "preco":"999",
+               "ram":"RAM: 8 GB",
+               "gpu":"NVIDIA GeForce MX250",
+               "ecra":"13.3''",
+               "cpu":"Intel Core i5-8265U",
+               "memoria":"NVIDIA GeForce MX250",
+               "quantidade":"4",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_44":[
+            {
+               "nome":"MICROSOFT Laptop 3 - V4C-00031   ",
+               "referencia":"i_44",
+               "imagem":"www.worten.pt/i/3d731618f63c91dbd02f2b761f615c69773bdca8.jpg",
+               "loja":"Worten",
+               "preco":"1398",
+               "ram":"RAM: 8 GB",
+               "gpu":"Intel Iris Plus 650",
+               "ecra":"13.5''",
+               "cpu":"Intel Core i5-1035G7",
+               "memoria":"Intel Iris Plus 650",
+               "quantidade":"3",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_45":[
+            {
+               "nome":"MICROSOFT Surface Pro 7 - VAT-00019  ",
+               "referencia":"i_45",
+               "imagem":"www.worten.pt/i/ec7826a3228e69a8731964db3aa8beab9210372b.jpg",
+               "loja":"Worten",
+               "preco":"1898",
+               "ram":"RAM: 16 GB",
+               "gpu":"Intel Iris Plus",
+               "ecra":"12.3''",
+               "cpu":"Intel Core i7-1065G7",
+               "memoria":"Intel Iris Plus",
+               "quantidade":"5",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_46":[
+            {
+               "nome":"MICROSOFT Surface Laptop 3 - V4G-00010  ",
+               "referencia":"i_46",
+               "imagem":"www.worten.pt/i/5acae55d8ec2720c06340e89b148b77dec976ec7.jpg",
+               "loja":"Worten",
+               "preco":"1298",
+               "ram":"RAM: 8 GB",
+               "gpu":"AMD Radeon Vega 9",
+               "ecra":"15''",
+               "cpu":"AMD Radeon Vega 9",
+               "memoria":"AMD Radeon Vega 9",
+               "quantidade":"9",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_47":[
+            {
+               "nome":"MICROSOFT Surface Laptop 3 - VGZ-00031  ",
+               "referencia":"i_47",
+               "imagem":"www.worten.pt/i/28710f63dcdc77ea810bfba37ad57aa6f8de390a.jpg",
+               "loja":"Worten",
+               "preco":"1498",
+               "ram":"RAM: 8 GB",
+               "gpu":"AMD Radeon Vega 9",
+               "ecra":"15''",
+               "cpu":"AMD Radeon Vega 9",
+               "memoria":"AMD Radeon Vega 9",
+               "quantidade":"8",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "i_48":[
+            {
+               "nome":"MICROSOFT Surface Pro 7 - VAT-00004  ",
+               "referencia":"i_48",
+               "imagem":"www.worten.pt/i/9495a19f516b8de0de4dd46c83af41ea6ab96380.jpg",
+               "loja":"Worten",
+               "preco":"1898",
+               "ram":"RAM: 16 GB",
+               "gpu":"Intel Iris Plus",
+               "ecra":"12.3''",
+               "cpu":"Intel Core i7-1065G7",
+               "memoria":"Intel Iris Plus",
+               "quantidade":"8",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      }
+   ],
+
+   "telemoveis-e-smartphones":[
+      {
+         "t_50":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A10 ",
+               "referencia":"t_50",
+               "imagem":"www.worten.pt/i/9a445a67d10058761fc6dd16b42d96604d9f3e56.jpg",
+               "loja":"Worten",
+               "preco":"145",
+               "ram":"2GB",
+               "ecra":"6.2''",
+               "memoria":"32GB",
+               "quantidade":"8",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_51":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A40 ",
+               "referencia":"t_51",
+               "imagem":"www.worten.pt/i/fb68db97db42c88e9ff7aec69660d26ea6cec46a.jpg",
+               "loja":"Worten",
+               "preco":"214",
+               "ram":"4GB",
+               "ecra":"5.9''",
+               "memoria":"64GB",
+               "quantidade":"5",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_52":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A70 ",
+               "referencia":"t_52",
+               "imagem":"www.worten.pt/i/6ab4e17ded408b43aa5e427309711f27c12d35c3.jpg",
+               "loja":"Worten",
+               "preco":"398",
+               "ram":"6GB",
+               "ecra":"6.7''",
+               "memoria":"128GB",
+               "quantidade":"4",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_53":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A50 ",
+               "referencia":"t_53",
+               "imagem":"www.worten.pt/i/093939f6a197d3b08fdc486e8baa5a8d7e6bc8c9.jpg",
+               "loja":"Worten",
+               "preco":"322",
+               "ram":"4GB",
+               "ecra":"6.4''",
+               "memoria":"128GB",
+               "quantidade":"1",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_54":[
+            {
+               "nome":"Smartphone SAMSUNG A51 ",
+               "referencia":"t_54",
+               "imagem":"www.worten.pt/i/15138260106a88023c41016924e44a18792e1d74.jpg",
+               "loja":"Worten",
+               "preco":"337",
+               "ram":"4GB",
+               "ecra":"6.5''",
+               "memoria":"128GB",
+               "quantidade":"7",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_55":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy S10+ ",
+               "referencia":"t_55",
+               "imagem":"www.worten.pt/i/51f9fe04e2d2c9aaa08a4e6b55d7fbc282411bb5.jpg",
+               "loja":"Worten",
+               "preco":"659",
+               "ram":"8GB",
+               "ecra":"6.4''",
+               "memoria":"128GB",
+               "quantidade":"5",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_56":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A51 ",
+               "referencia":"t_56",
+               "imagem":"www.worten.pt/i/f5cba0b29cf8e3e3218deb1dae5778000162e42d.jpg",
+               "loja":"Worten",
+               "preco":"352",
+               "ram":"6GB",
+               "ecra":"6.5''",
+               "memoria":"128GB",
+               "quantidade":"4",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_57":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy S10 ",
+               "referencia":"t_57",
+               "imagem":"www.worten.pt/i/1dfa6e1a4b720254aee726ff390a0fbe28ae4657.jpg",
+               "loja":"Worten",
+               "preco":"562",
+               "ram":"8GB",
+               "ecra":"6.1''",
+               "memoria":"128GB",
+               "quantidade":"5",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_58":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy Note 10 ",
+               "referencia":"t_58",
+               "imagem":"www.worten.pt/i/f07cf8e5c754c9b8016ade29e2c804ecf91a329e.jpg",
+               "loja":"Worten",
+               "preco":"679",
+               "ram":"8GB",
+               "ecra":"6.3''",
+               "memoria":"256GB",
+               "quantidade":"9",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_59":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A40 ",
+               "referencia":"t_59",
+               "imagem":"www.worten.pt/i/6978d6c5be50e9b69d45c038a300cbc37a10c966.jpg",
+               "loja":"Worten",
+               "preco":"214",
+               "ram":"4GB",
+               "ecra":"5.9''",
+               "memoria":"64GB",
+               "quantidade":"0",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_60":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A40 ",
+               "referencia":"t_60",
+               "imagem":"www.worten.pt/i/485a22ade38d28990bce438d609b61a23388ec7d.jpg",
+               "loja":"Worten",
+               "preco":"214",
+               "ram":"4GB",
+               "ecra":"5.9''",
+               "memoria":"64GB",
+               "quantidade":"6",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_61":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A50 ",
+               "referencia":"t_61",
+               "imagem":"www.worten.pt/i/fad02f5248081fae05497c44e9a12543424b917b.jpg",
+               "loja":"Worten",
+               "preco":"317",
+               "ram":"4GB",
+               "ecra":"6.4''",
+               "memoria":"128GB",
+               "quantidade":"2",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_62":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy S10+ ",
+               "referencia":"t_62",
+               "imagem":"www.worten.pt/i/c8e274c8530519b1b3a0711cf77155271c85ffc4.jpg",
+               "loja":"Worten",
+               "preco":"677",
+               "ram":"8GB",
+               "ecra":"6.4''",
+               "memoria":"128GB",
+               "quantidade":"5",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_63":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A80 ",
+               "referencia":"t_63",
+               "imagem":"www.worten.pt/i/46cb61917f578c45ca75252e61893fdcefd19f8c.jpg",
+               "loja":"Worten",
+               "preco":"478",
+               "ram":"8GB",
+               "ecra":"6.7''",
+               "memoria":"128GB",
+               "quantidade":"9",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_64":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A70 ",
+               "referencia":"t_64",
+               "imagem":"www.worten.pt/i/1f3619752a6018d140bcfa8c670256e42ff3ff3e.jpg",
+               "loja":"Worten",
+               "preco":"365",
+               "ram":"6GB",
+               "ecra":"6.7''",
+               "memoria":"128GB",
+               "quantidade":"5",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_65":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy S10e ",
+               "referencia":"t_65",
+               "imagem":"www.worten.pt/i/de2cf783d2636e3372ee4c2dcecfce9c1ef59719.jpg",
+               "loja":"Worten",
+               "preco":"492",
+               "ram":"6GB",
+               "ecra":"5.8''",
+               "memoria":"128GB",
+               "quantidade":"8",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_66":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy J2 DS ",
+               "referencia":"t_66",
+               "imagem":"www.worten.pt/i/8aec86dadd4039f2a4a5a1cea032c69b004f1bc3.jpg",
+               "loja":"Worten",
+               "preco":"142",
+               "ram":"1.5GB",
+               "ecra":"5''",
+               "memoria":"16GB",
+               "quantidade":"0",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_67":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy Note 10+ ",
+               "referencia":"t_67",
+               "imagem":"www.worten.pt/i/a897355fc8a51f828abe03dd6943043debe6c102.jpg",
+               "loja":"Worten",
+               "preco":"907",
+               "ram":"12GB",
+               "ecra":"6.8''",
+               "memoria":"256GB",
+               "quantidade":"7",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_68":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A50 ",
+               "referencia":"t_68",
+               "imagem":"www.worten.pt/i/111ed7263fee4210844bd12408d2c279b85113d6.jpg",
+               "loja":"Worten",
+               "preco":"317",
+               "ram":"4GB",
+               "ecra":"6.4''",
+               "memoria":"128GB",
+               "quantidade":"6",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_69":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy S10 ",
+               "referencia":"t_69",
+               "imagem":"www.worten.pt/i/4db8e2e5a71d96bca16c0c2cc0657a1c1dcbe2d1.jpg",
+               "loja":"Worten",
+               "preco":"659",
+               "ram":"8GB",
+               "ecra":"6.1''",
+               "memoria":"128GB",
+               "quantidade":"3",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_70":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A70 ",
+               "referencia":"t_70",
+               "imagem":"www.worten.pt/i/420fa6bd37fb79355678eaa06b29edd653e0eb3e.jpg",
+               "loja":"Worten",
+               "preco":"415",
+               "ram":"6GB",
+               "ecra":"6.7''",
+               "memoria":"128GB",
+               "quantidade":"0",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_71":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A10 ",
+               "referencia":"t_71",
+               "imagem":"www.worten.pt/i/351f7d687b2ed9a0f3fdda099c5d6d620d184380.jpg",
+               "loja":"Worten",
+               "preco":"160",
+               "ram":"32GB",
+               "ecra":"2GB",
+               "memoria":"DS",
+               "quantidade":"0",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_72":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A70 ",
+               "referencia":"t_72",
+               "imagem":"www.worten.pt/i/b8926b92c17d4ba1f50c6ca6bba10e4b46b84b57.jpg",
+               "loja":"Worten",
+               "preco":"408",
+               "ram":"6GB",
+               "ecra":"6.7''",
+               "memoria":"128GB",
+               "quantidade":"5",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_73":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A30s ",
+               "referencia":"t_73",
+               "imagem":"www.worten.pt/i/86dfeff979108e68f23a50110fa37bd494b3ee2e.jpg",
+               "loja":"Worten",
+               "preco":"194",
+               "ram":"4GB",
+               "ecra":"6.4''",
+               "memoria":"64GB",
+               "quantidade":"4",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_74":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A70 ",
+               "referencia":"t_74",
+               "imagem":"www.worten.pt/i/8395d39c1f4297ce268f92e0d663e248b5bdcff4.jpg",
+               "loja":"Worten",
+               "preco":"415",
+               "ram":"6GB",
+               "ecra":"6.7''",
+               "memoria":"128GB",
+               "quantidade":"7",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_75":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A70 ",
+               "referencia":"t_75",
+               "imagem":"www.worten.pt/i/d83140c7351af7038bd748d84075571cb1f30d5f.jpg",
+               "loja":"Worten",
+               "preco":"409",
+               "ram":"6GB",
+               "ecra":"6.7''",
+               "memoria":"128GB",
+               "quantidade":"1",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_76":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A20e ",
+               "referencia":"t_76",
+               "imagem":"www.worten.pt/i/ec9224e490effc300dcc173071642c946007b664.jpg",
+               "loja":"Worten",
+               "preco":"169",
+               "ram":"3GB",
+               "ecra":"5.8''",
+               "memoria":"32GB",
+               "quantidade":"2",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_77":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy S10+ ",
+               "referencia":"t_77",
+               "imagem":"www.worten.pt/i/d86a53018d7a3e68256a444db468e69a59c6dff3.jpg",
+               "loja":"Worten",
+               "preco":"658",
+               "ram":"8GB",
+               "ecra":"6.4''",
+               "memoria":"128GB",
+               "quantidade":"6",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_78":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A80 ",
+               "referencia":"t_78",
+               "imagem":"www.worten.pt/i/33f4bd3f3701f564a71d6f0fa2f01aa9bccf1e8b.jpg",
+               "loja":"Worten",
+               "preco":"478",
+               "ram":"8GB",
+               "ecra":"6.7''",
+               "memoria":"128GB",
+               "quantidade":"0",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_79":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A50 ",
+               "referencia":"t_79",
+               "imagem":"www.worten.pt/i/dbcf61cee1d16baab9d9141faa13cecd3c1cf12f.jpg",
+               "loja":"Worten",
+               "preco":"287",
+               "ram":"4GB",
+               "ecra":"6.4''",
+               "memoria":"128GB",
+               "quantidade":"0",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_80":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy S10e ",
+               "referencia":"t_80",
+               "imagem":"www.worten.pt/i/bf9dc9546f17953911b211166f4f40b851fe5c6e.jpg",
+               "loja":"Worten",
+               "preco":"612",
+               "ram":"6GB",
+               "ecra":"5.8''",
+               "memoria":"128GB",
+               "quantidade":"2",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_81":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy S8 ",
+               "referencia":"t_81",
+               "imagem":"www.worten.pt/i/71aef5de0dfe00724c574446ff8947c276de20e9.jpg",
+               "loja":"Worten",
+               "preco":"391",
+               "ram":"4GB",
+               "ecra":"5.8''",
+               "memoria":"64GB",
+               "quantidade":"6",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_82":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy Note 10 ",
+               "referencia":"t_82",
+               "imagem":"www.worten.pt/i/8e22a4bd0400e4657a7cca248cb8acd668de4593.jpg",
+               "loja":"Worten",
+               "preco":"677",
+               "ram":"8GB",
+               "ecra":"6.3''",
+               "memoria":"256GB",
+               "quantidade":"0",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_83":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A10 ",
+               "referencia":"t_83",
+               "imagem":"www.worten.pt/i/10cede70f30e32a71f621f012091c448ded49165.jpg",
+               "loja":"Worten",
+               "preco":"145",
+               "ram":"2GB",
+               "ecra":"6.2''",
+               "memoria":"32GB",
+               "quantidade":"3",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_84":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A20e ",
+               "referencia":"t_84",
+               "imagem":"www.worten.pt/i/9212661856f99635a69134eb85740830a1de2666.jpg",
+               "loja":"Worten",
+               "preco":"241",
+               "ram":"3GB",
+               "ecra":"5.8''",
+               "memoria":"32GB",
+               "quantidade":"7",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_85":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A20e ",
+               "referencia":"t_85",
+               "imagem":"www.worten.pt/i/4a079060ad07958e3d0cf44939e673ab3ca11eed.jpg",
+               "loja":"Worten",
+               "preco":"191",
+               "ram":"3GB",
+               "ecra":"5.8''",
+               "memoria":"32GB",
+               "quantidade":"2",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_86":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy Note 10 ",
+               "referencia":"t_86",
+               "imagem":"www.worten.pt/i/10eea0a7a74258d707f346b5e28901cc71188d23.jpg",
+               "loja":"Worten",
+               "preco":"714",
+               "ram":"8GB",
+               "ecra":"6.3''",
+               "memoria":"256GB",
+               "quantidade":"0",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_87":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A20e ",
+               "referencia":"t_87",
+               "imagem":"www.worten.pt/i/bb8c9d9884144c0c7c4ddb43df5d760dd20464db.jpg",
+               "loja":"Worten",
+               "preco":"179",
+               "ram":"3GB",
+               "ecra":"5.8''",
+               "memoria":"32GB",
+               "quantidade":"2",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      },
+      {
+         "t_88":[
+            {
+               "nome":"Smartphone SAMSUNG Galaxy A50 ",
+               "referencia":"t_88",
+               "imagem":"www.worten.pt/i/a5695c2713f16cfe0a9100ed3abf78bcfb0d23b8.jpg",
+               "loja":"Worten",
+               "preco":"322",
+               "ram":"4GB",
+               "ecra":"6.4''",
+               "memoria":"128GB",
+               "quantidade":"3",
+               "promocao":"false",
+               "precopromocao":"0"
+            }
+         ]
+      }
+   ],
+
+   "sapatilhas-casual-homem":[
+      {
+         "c_90":[
+            {
+               "nome":"Fila Eurojogger 4",
+               "referencia":"c_90",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0292841/fila-blazehawk_0292841_00_4_1540909910.jpg",
+               "loja":"SportZone",
+               "preco":"29,99",
+               "quantidade":"8", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  36,
+                  39,
+                  40
+               ]
+            }
+         ]
+      },
+      {
+         "c_91":[
+            {
+               "nome":"adidas Daily 2.0",
+               "referencia":"c_91",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0293931/adidas-daily_0293931_00_4_2874706367.jpg",
+               "loja":"SportZone",
+               "preco":"59,99",
+               "quantidade":"2", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  36,
+                  39,
+                  41
+               ]
+            }
+         ]
+      },
+      {
+         "c_92":[
+            {
+               "nome":"Mistral Focus",
+               "referencia":"c_92",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0294787/mistral-focus_0294787_00_4_3094421536.jpg",
+               "loja":"SportZone",
+               "preco":"19,99",
+               "quantidade":"3", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  38,
+                  40,
+                  41
+               ]
+            }
+         ]
+      },
+      {
+         "c_93":[
+            {
+               "nome":"Mistral Focus",
+               "referencia":"c_93",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0294786/mistral-focus_0294786_00_4_1241049691.jpg",
+               "loja":"SportZone",
+               "preco":"19,99",
+               "quantidade":"12", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  36,
+                  37,
+                  39,
+                  40
+               ]
+            }
+         ]
+      },
+      {
+         "c_94":[
+            {
+               "nome":"Vl Court 2.0 adidas",
+               "referencia":"c_94",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0293930/vl-court-2-0-cro-dptvo-clasico-mesh_0293930_00_4_48147669.jpg",
+               "loja":"SportZone",
+               "preco":"54,99",
+               "quantidade":"6", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  37,
+                  38
+               ]
+            }
+         ]
+      },
+      {
+         "c_95":[
+            {
+               "nome":"Nike Charge Canvas",
+               "referencia":"c_95",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0295346/nike-charge_0295346_00_4_1484850346.jpg",
+               "loja":"SportZone",
+               "preco":"44,99",
+               "quantidade":"10", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  36,
+                  37,
+                  41
+               ]
+            }
+         ]
+      },
+      {
+         "c_96":[
+            {
+               "nome":"Nike Charge Canvas",
+               "referencia":"c_96",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0290400/nike-charge_0290400_00_4_2571260412.jpg",
+               "loja":"SportZone",
+               "preco":"44,99",
+               "quantidade":"15", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  36,
+                  38,
+                  41
+               ]
+            }
+         ]
+      },
+      {
+         "c_97":[
+            {
+               "nome":"Sapatilhas Yester Silver",
+               "referencia":"c_97",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0292044/zapatillas-silver-yester_0292044_00_4_2590265815.jpg",
+               "loja":"SportZone",
+               "preco":"19,99",
+               "quantidade":"4", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  38,
+                  39,
+                  40,
+                  41
+               ]
+            }
+         ]
+      },
+      {
+         "c_98":[
+            {
+               "nome":"Sapatilhas Mistral Duece",
+               "referencia":"c_98",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0294779/mistral-tonga_0294779_00_4_3094883934.jpg",
+               "loja":"SportZone",
+               "preco":"19,99",
+               "quantidade":"10", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  36,
+                  37,
+                  38,
+                  39,
+                  40
+               ]
+            }
+         ]
+      },
+      {
+         "c_99":[
+            {
+               "nome":"Sapatilhas Nicoboco Praga",
+               "referencia":"c_99",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0295097/nicoboco-praga_0295097_00_4_702155956.jpg",
+               "loja":"SportZone",
+               "preco":"19,99",
+               "quantidade":"7", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  38,
+                  40,
+                  41
+               ]
+            }
+         ]
+      },
+      {
+         "c_100":[
+            {
+               "nome":"Sapatilhas Nicoboco Praga",
+               "referencia":"c_100",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0295096/nicoboco-praga_0295096_00_4_3280837951.jpg",
+               "loja":"SportZone",
+               "preco":"19,99",
+               "quantidade":"0", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  38,
+                  39,
+                  41
+               ]
+            }
+         ]
+      },
+      {
+         "c_101":[
+            {
+               "nome":"Sapatilhas Nicoboco Sody",
+               "referencia":"c_101",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0295759/splash-20-children-aquashoe-playa_0295759_00_4_2857557311.jpg",
+               "loja":"SportZone",
+               "preco":"14,99",
+               "quantidade":"8", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  36,
+                  38,
+                  39,
+                  40,
+                  41
+               ]
+            }
+         ]
+      },
+      {
+         "c_102":[
+            {
+               "nome":"Sapatilhas Up Bruce",
+               "referencia":"c_102",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0290967/bruce-chlna-dptvo-velcro-retrorunning-m-comfort_0290967_00_4_3893557586.jpg",
+               "loja":"SportZone",
+               "preco":"7,99",
+               "quantidade":"3", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  36,
+                  37,
+                  39,
+                  41
+               ]
+            }
+         ]
+      },
+      {
+         "c_103":[
+            {
+               "nome":"Sapatilhas Up Bruce",
+               "referencia":"c_103",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0290846/zapatillas-up-bruce_0290846_00_4_551539406.jpg",
+               "loja":"SportZone",
+               "preco":"7,99",
+               "quantidade":"11", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  36,
+                  39,
+                  40,
+                  41
+               ]
+            }
+         ]
+      },
+      {
+         "c_104":[
+            {
+               "nome":"Sapatilhas Up Liam",
+               "referencia":"c_104",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0291349/zapatillas-up-liam_0291349_00_4_539852284.jpg",
+               "loja":"SportZone",
+               "preco":"5",
+               "quantidade":"5", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  36,
+                  37,
+                  39,
+                  41
+               ]
+            }
+         ]
+      },
+      {
+         "c_105":[
+            {
+               "nome":"Sapatilhas Silver Milos",
+               "referencia":"c_105",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0292023/sapatilhas-silver-milos_0292023_00_4_236671427.jpg",
+               "loja":"SportZone",
+               "preco":"9,99",
+               "quantidade":"1", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  38,
+                  40,
+                  41
+               ]
+            }
+         ]
+      },
+      {
+         "c_106":[
+            {
+               "nome":"Sapatilhas Silver Ora",
+               "referencia":"c_106",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0291982/sapatilhas-silver-ora_0291982_00_4_2806102260.jpg",
+               "loja":"SportZone",
+               "preco":"9,99",
+               "quantidade":"8", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  36,
+                  37,
+                  38,
+                  40,
+                  41
+               ]
+            }
+         ]
+      },
+      {
+         "c_107":[
+            {
+               "nome":"Mistral Alan",
+               "referencia":"c_107",
+               "imagem":"https://resize.sprintercdn.com/f/261x261/products/0294792/mistral-alan_0294792_00_4_842955227.jpg",
+               "loja":"SportZone",
+               "preco":"19,99",
+               "quantidade":"6", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  36,
+                  40
+               ]
+            }
+         ]
+      },
+      {
+         "c_108":[
+            {
+               "nome":"adidas Vl Court 2.0",
+               "referencia":"c_108",
+               "imagem":"https://static.sprintercdn.com/placeholders/image-placeholder.gif",
+               "loja":"SportZone",
+               "preco":"39,99",
+               "quantidade":"11", 
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  36,
+                  37,
+                  41
+               ]
+            }
+         ]
+      },
+      {
+         "c_109":[
+            {
+               "nome":"Sapatilhas Silver Detroit",
+               "referencia":"c_109",
+               "imagem":"hhttps://resize.sprintercdn.com/f/261x261/products/0292035/sapatilhas-silver-detroit_0292035_00_4_3403055999.jpg",
+               "loja":"SportZone",
+               "preco":"9,99",
+               "quantidade":"8", 	
+               "promocao":"false",
+               "precopromocao":"0",
+               "tamanhos":[
+                  36,
+                  37,
+                  38,
+                  39,
+                  41
+               ]
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,273 @@
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-6">
+        <h1></h1>
+      </div>
+      <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+          <li class="breadcrumb-item"><a onclick="orders_go()" style="cursor: pointer;">Voltar</a></li>
+        </ol>
+      </div>
+    </div>
+  </div><!-- /.container-fluid -->
+</div>
+<!-- Main content -->
+<div class="content">
+  <div class="container-fluid">
+    <div class="card card-default">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-12 mb-3">
+            <label for="sale_name">Morada</label>
+            <input type="text" class="form-control" id="address" disabled>
+          </div>
+          <div class="col-md-5 mb-3">
+            <label for="state">Distrito</label>
+            <input type="text" class="form-control" id="state" disabled>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="city">Localidade</label>
+            <input type="text" class="form-control" id="city" disabled>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="zip">Código Postal</label>
+            <input type="text" class="form-control" id="zip" placeholder="" disabled>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="form-group">
+              <label for="sale_name">Valor</label>
+              <input type="text" class="form-control" id="value" disabled>
+            </div>
+            <!-- /.form-group -->
+          </div>
+          <div class="col-md-3 md-3">
+            <div class="form-group">
+              <label>Telemóvel</label>
+              <input type="number" class="form-control" id="mobile" disabled/>
+            </div>
+            <!-- /.form-group -->
+          </div>
+          <div class="col-md-3 md-3">           
+            <div class="form-group">
+              <label for="sale_startDate">Data</label>
+              <div class="input-group date" id="datetimepicker7" data-target-input="nearest">
+                <input type="text" class="form-control datetimepicker-input" id="order_date" data-target="#datetimepicker1" disabled/>
+                <div class="input-group-append" data-target="#datetimepicker7" data-toggle="datetimepicker">
+                  <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                </div>
+              </div>
+            </div>
+            <!-- /.form-group -->
+          </div>
+          <!-- /.col -->
+         
+          <div class="col-md-3 md-3">
+            <div class="form-group">
+              <label for="order_deliverDate">Data de Entrega</label>
+              <div class="input-group date" id="datetimepicker8" data-target-input="nearest">
+                <input type="text" class="form-control datetimepicker-input" id="order_deliverDate" data-target="#datetimepicker2" disabled/>
+                <div class="input-group-append" data-target="#datetimepicker8" data-toggle="datetimepicker">
+                  <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                </div>
+              </div>
+            </div>
+            <!-- /.form-group -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-12">
+            <div class="form-group">
+              <table id="prod_list_orders" class="table table-bordered table-hover">
+                <thead>
+                  <tr>
+                    <th>Nome</th>
+                    <th>Ref</th>
+                    <th>PVP</th>
+                    <th>Stock</th>
+                    <th>Quantidade</th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id="prod_order_list">
+                  <tr id="ref_xx">
+                    <td>Trident</td>
+                    <td>xx</td>
+                    <td>50€</td>
+                    <td>20</td>
+                    <td>5</td>
+                  </tr>
+                  <tr id="ref_xx">
+                    <td>HALLS</td>
+                    <td>xx</td>
+                    <td>50€</td>
+                    <td>5</td>
+                    <td>1</td>
+                  </tr>
+                  <tr id="ref_xx">
+                    <td>Gorila</td>
+                    <td>xx</td>
+                    <td>50€</td>
+                    <td>10</td>
+                    <td>2</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- /.form-group -->
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.card-body -->
+      <div class="card-footer">
+        <div class="row">
+          <div class="col-md-6">
+            <a onclick="gen_invoice()" class="btn btn-sm btn-default"><i class="fa fa-file" aria-hidden="true"></i> Gerar Fatura</a>
+          </div>
+          <div class="col-md-6 text-right">
+            <a onclick="ship()" class="btn btn-sm btn-primary" style="color: white;"><i class="fas fa-shipping-fast"></i> Despachar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  
+  $(function () {
+    $("#address").val(encomendas["encomendas"][order_link]["morada"]);
+    $("#state").val(encomendas["encomendas"][order_link]["distrito"]);
+    $("#city").val(encomendas["encomendas"][order_link]["localidade"]);
+    $("#zip").val(encomendas["encomendas"][order_link]["cod_postal"]);
+    $("#value").val(encomendas["encomendas"][order_link]["valor"]);
+    $("#mobile").val(encomendas["encomendas"][order_link]["telemovel"]);
+    $("#order_date").val(encomendas["encomendas"][order_link]["data"]);
+    $("#order_deliverDate").val(encomendas["encomendas"][order_link]["data_entrega"]);
+
+    var prod_order_list = '';
+
+    $.each(encomendas["encomendas"][order_link]["produtos"], function(i) {
+      ref = encomendas["encomendas"][order_link]["produtos"][i]["referencia"];
+      helper = find_by_ref(ref);
+      prod_info = helper[2];
+      if (helper[2] != undefined){
+        prod_order_list += '<tr style="cursor:pointer">';
+        prod_order_list += '<td>'+prod_info[0]["nome"]+'</td>';
+        prod_order_list += '<td>'+prod_info[0]["referencia"]+'</td>';
+        prod_order_list += '<td>'+prod_info[0]["preco"]+'€</td>';
+        prod_order_list += '<td>'+ prod_info[0]["quantidade"] +'</td>';
+        prod_order_list += '<td>'+ encomendas["encomendas"][order_link]["produtos"][i]["quantidade"] +'</td>';
+        prod_order_list += '<td>'+helper[1]+'</td>';
+        prod_order_list += '<td>'+helper[0]+'</td>';
+        prod_order_list += '</tr>';
+      }
+    });   
+
+    $("#prod_order_list").html(prod_order_list);
+
+    //Initialize datetimepickers
+    $('#datetimepicker7').datetimepicker({
+      format: 'DD/MM/YYYY'
+    });
+    $('#datetimepicker8').datetimepicker({
+      useCurrent: false,
+      format: 'DD/MM/YYYY'
+    });
+    $("#datetimepicker7").on("change.datetimepicker", function (e) {
+        $('#datetimepicker8').datetimepicker('minDate', e.date);
+    });
+    $("#datetimepicker8").on("change.datetimepicker", function (e) {
+        $('#datetimepicker7').datetimepicker('maxDate', e.date);
+    });
+
+    var table_orders = $('#prod_list_orders').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": true,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false,
+      "responsive": true,
+      "columnDefs": [        
+        { "targets": 5, "visible": false, "searchable": false },
+        { "targets": 6, "visible": false, "searchable": true },
+      ],
+      "language": {
+        "sEmptyTable":   "Não foi encontrado nenhum registo",
+        "sLoadingRecords": "A carregar...",
+        "sProcessing":   "A processar...",
+        "sLengthMenu":   "Mostrar _MENU_ registos",
+        "sZeroRecords":  "Não foram encontrados resultados",
+        "sInfo":         "Mostrando de _START_ até _END_ de _TOTAL_ registos",
+        "sInfoEmpty":    "Mostrando de 0 até 0 de 0 registos",
+        "sInfoFiltered": "(filtrado de _MAX_ registos no total)",
+        "sInfoPostFix":  "",
+        "sSearch":       "Procurar:",
+        "sUrl":          "",
+        "oPaginate": {
+            "sFirst":    "Primeiro",
+            "sPrevious": "Anterior",
+            "sNext":     "Seguinte",
+            "sLast":     "Último"
+        },
+        "oAria": {
+            "sSortAscending":  ": Ordenar colunas de forma ascendente",
+            "sSortDescending": ": Ordenar colunas de forma descendente"
+        }
+      }
+    });
+
+    $('#prod_list_orders tbody').on('click', 'tr', function (evt) {
+        var data = table_orders.row( this ).data();
+        product_link(JSON.stringify(produtos[data[6]][data[5]][data[1]]), data[5]); 
+    } );
+  });
+
+  function gen_invoice(){
+    const swalWithBootstrapButtons = Swal.mixin({
+      customClass: {
+        confirmButton: 'btn btn-success',
+        cancelButton: 'btn btn-danger'
+      },
+      buttonsStyling: false
+    });
+    let timerInterval;
+    Swal.fire({
+      title: 'A preparar a fatura.',
+      html: 'O documento será automaticamente guardado no seu computador.',
+      timer: 2000,
+      timerProgressBar: true,
+      onBeforeOpen: () => {
+        Swal.showLoading()
+        timerInterval = setInterval(() => {
+          const content = Swal.getContent()
+        }, 100)
+      },
+      onClose: () => {
+        clearInterval(timerInterval)
+      }
+    }).then((result) => {
+      swalWithBootstrapButtons.fire(
+        'Pronto a ser descarregado!',
+        'O ficheiro irá ser guardado no seu computador na localização: C:\\Windows\\Downloads.',
+        'success'
+      )
+    });
+  }
+
+  function ship(){
+    const swalWithBootstrapButtons = Swal.mixin({
+      customClass: {
+        confirmButton: 'btn btn-success'
+      },
+      buttonsStyling: false
+    });
+    swalWithBootstrapButtons.fire(
+      'O seu pedido será atendido o mais rápido possível!',
+      'Foi lançado o alerta de uma nova recolha a todos os estafetas que estejam na sua área, terá de aguardar que um deles responda.',
+      'success'
+    )
+  }
+
+</script>

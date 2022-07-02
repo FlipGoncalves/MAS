@@ -1,0 +1,17 @@
+﻿<div class=" container m-5" data-bind="foreach: example.items">
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <div class="row text-left" >
+                        <button class="btn btn-link col-lg-11 col-md-10 col col-sm-8 " data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" data-bind="text:nome">
+                        </button>
+                        <input class="col-lg-1 col-md-2 col col-sm-4 form-control" type="number" id="example-number-input" data-bind="attr:{min:1,max:quantidade,value:quantidadeS},value:quantidadeF,event:{change: $parent.showChanges}">
+                </div>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+
+            </div>
+        </div>
+    </div>
+</div>

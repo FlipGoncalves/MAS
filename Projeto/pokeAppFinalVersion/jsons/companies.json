@@ -1,0 +1,25 @@
+{
+  comapnies :
+  [
+    {
+      "nome": "Sonae",
+      "imagem": "/images/Sonae.png"
+    },
+    {
+      "nome": "BuyAway",
+      "imagem": "/images/buyaway.png"
+    },
+    {
+      "nome": "Worten",
+      "imagem": "/images/wortenlogo.png"
+    },
+    {
+      "nome": "SportZone",
+      "imagem": "/images/sptz.png"
+    },
+    {
+      "nome": "Continente",
+      "imagem": "/images/Continente.png"
+    }
+  ]
+}

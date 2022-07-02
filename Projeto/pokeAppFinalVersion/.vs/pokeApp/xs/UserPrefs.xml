@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{AE86A302-4C76-4B08-A2A3-46DC3F296CEB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="App/views/species.html">
+    <Files>
+      <File FileName="App/views/flickr.html" Line="1" Column="1" />
+      <File FileName="App/views/shell.html" Line="66" Column="24" />
+      <File FileName="App/viewmodels/shell.js" Line="37" Column="75" />
+      <File FileName="App/viewmodels/flickr.js" Line="32" Column="26" />
+      <File FileName="Content/myApp.css" Line="44" Column="16" />
+      <File FileName="App/viewmodels/welcome.js" Line="18" Column="93" />
+      <File FileName="App/views/welcome.html" Line="12" Column="62" />
+      <File FileName="App/views/species.html" Line="26" Column="151" />
+      <File FileName="App/views/pokemons.html" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="pokeApp" expanded="True">
+            <Node name="pokeApp" expanded="True">
+              <Node name="App" expanded="True">
+                <Node name="viewmodels" expanded="True" />
+                <Node name="views" expanded="True">
+                  <Node name="species.html" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Content" expanded="True" />
+              <Node name="images" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="durandal" expanded="True">
+                  <Node name="plugins" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.pokeApp PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

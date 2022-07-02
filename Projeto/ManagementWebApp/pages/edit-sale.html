@@ -1,0 +1,232 @@
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-6">
+        <h1 id="sale_title"></h1>
+      </div>
+      <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+          <li class="breadcrumb-item"><a style="cursor: pointer;" onclick="onsales_back()" >Voltar</a></li>
+        </ol>
+      </div>
+    </div>
+  </div><!-- /.container-fluid -->
+</div>
+<!-- Main content -->
+<div class="content">
+  <div class="container-fluid">
+    <div class="card card-default">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="sale_name">Nome</label>
+              <input type="text" class="form-control" id="sale_nome">
+            </div>
+            <!-- /.form-group -->
+            <div class="form-group">
+              <label for="sale_startDate">Data de Início</label>
+              <div class="input-group date" id="datetimepicker7" data-target-input="nearest">
+                <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker7" id="sale_data_inicio"/>
+                <div class="input-group-append" data-target="#datetimepicker7" data-toggle="datetimepicker">
+                  <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                </div>
+              </div>
+            </div>
+            <!-- /.form-group -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Percentagem</label>
+              <input type="number" class="form-control" id="sale_percentagem" min="0" max="100"/>
+            </div>
+            <!-- /.form-group -->
+            <div class="form-group">
+              <label for="sale_endDate">Data de Fim</label>
+              <div class="input-group date" id="datetimepicker8" data-target-input="nearest">
+                <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker8" id="sale_data_fim"/>
+                <div class="input-group-append" data-target="#datetimepicker8" data-toggle="datetimepicker">
+                  <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                </div>
+              </div>
+            </div>
+            <!-- /.form-group -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-12">
+            <!--<div class="form-group">
+              <label>Referência do Produto</label>
+              <select class="form-control select2bs4" id="sel_prod_ref" multiple="multiple" style="width: 100%;">
+                <option>Alabama</option>
+                <option>Alaska</option>
+                <option>California</option>
+                <option>Delaware</option>
+                <option>Tennessee</option>
+                <option>Texas</option>
+                <option>Washington</option>
+              </select>
+            </div>-->
+            <div class="form-group">
+              <table id="prod_list" class="table table-bordered table-hover">
+                <thead>
+                  <tr>
+                    <th>Nome</th>
+                    <th>Ref</th>
+                    <th>PVP</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id="prod_list_tbody">
+                  
+                </tbody>
+              </table>
+            </div>
+            <!-- /.form-group -->
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.card-body -->
+      <div class="card-footer">
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  
+  $(function () {
+    //Initialize Select2 Elements
+    $('.select2bs4').select2();
+
+    //Initialize datetimepickers
+    $('#datetimepicker7').datetimepicker({
+      format: 'DD/MM/YYYY'
+    });
+    $('#datetimepicker8').datetimepicker({
+      useCurrent: false,
+      format: 'DD/MM/YYYY'
+    });
+    $("#datetimepicker7").on("change.datetimepicker", function (e) {
+        $('#datetimepicker8').datetimepicker('minDate', e.date);
+    });
+    $("#datetimepicker8").on("change.datetimepicker", function (e) {
+        $('#datetimepicker7').datetimepicker('maxDate', e.date);
+    });
+
+    $("#sale_title").html(promo_link);
+    $("#sale_nome").val(promo_link);
+    $("#sale_data_inicio").val(promos[promo_link][0]["data_inicio"]);
+    $("#sale_data_fim").val(promos[promo_link][0]["data_fim"]);
+    $("#sale_percentagem").val(promos[promo_link][0]["percentagem"]);
+
+    var prod_sale_list = '';
+
+    $.each(promos[promo_link][0]["produtos"], function(i) {
+      ref = promos[promo_link][0]["produtos"][i];
+      helper = find_by_ref(ref);
+      prod_info = helper[2];
+      if (helper[2] != undefined){
+        prod_sale_list += '<tr id="'+ref+'">';
+        prod_sale_list += '<td>'+prod_info[0]["nome"]+'</td>';
+        prod_sale_list += '<td>'+prod_info[0]["referencia"]+'</td>';
+        prod_sale_list += '<td>'+prod_info[0]["preco"]+'€</td>';
+        prod_sale_list += '<td class="text-center"><a class="btn btn-sm btn-primary" style="color: white; background-color: red;"><i class="fa fa-minus-circle" aria-hidden="true"></i></a></td>';
+        prod_sale_list += '<td>'+helper[1]+'</td>';
+        prod_sale_list += '<td>'+helper[0]+'</td>';
+        prod_sale_list += '</tr>';
+      }
+    });   
+
+    $("#prod_list_tbody").html(prod_sale_list);
+
+    var table2 = $('#prod_list').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": true,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false,
+      "responsive": true,
+      "columnDefs": [
+        { "orderable": false, "targets": 3 },        
+        { "targets": 4, "visible": false, "searchable": false },
+        { "targets": 5, "visible": false, "searchable": true },
+      ],
+      "language": {
+        "sEmptyTable":   "Não foi encontrado nenhum registo",
+        "sLoadingRecords": "A carregar...",
+        "sProcessing":   "A processar...",
+        "sLengthMenu":   "Mostrar _MENU_ registos",
+        "sZeroRecords":  "Não foram encontrados resultados",
+        "sInfo":         "Mostrando de _START_ até _END_ de _TOTAL_ registos",
+        "sInfoEmpty":    "Mostrando de 0 até 0 de 0 registos",
+        "sInfoFiltered": "(filtrado de _MAX_ registos no total)",
+        "sInfoPostFix":  "",
+        "sSearch":       "Procurar:",
+        "sUrl":          "",
+        "oPaginate": {
+            "sFirst":    "Primeiro",
+            "sPrevious": "Anterior",
+            "sNext":     "Seguinte",
+            "sLast":     "Último"
+        },
+        "oAria": {
+            "sSortAscending":  ": Ordenar colunas de forma ascendente",
+            "sSortDescending": ": Ordenar colunas de forma descendente"
+        }
+      }
+    });
+
+    $('#prod_list tbody').on('click', 'tr', function (evt) {
+        var data = table2.row( this ).data();
+        //alert( 'You clicked on '+data[0]+'\'s row' );
+        var $cell=$(evt.target).closest('td');
+
+        if( $cell.index() === 3){
+          if (promos[promo_link][0]["produtos"].length > 1)
+            delete_prod($cell.parent().attr('id'));
+          else{
+            Swal.fire({
+              icon: 'warning',
+              title: 'Não pode ter uma promoção que não abranja nenhum produto.',
+              text: 'Deseja eliminar esta promoção?',
+              showConfirmButton: true,
+              showCancelButton: true,
+              confirmButtonColor: '#3085d6',
+              cancelButtonColor: '#d33',
+              confirmButtonText: 'Sim!',
+              cancelButtonText: 'Cancelar',
+            }).then((result) => {
+              if (result.value) {
+                delete_prod($cell.parent().attr('id'));
+                delete_promo();
+              }
+            });
+          }
+        }
+        else{
+          product_link(JSON.stringify(produtos[data[5]][data[4]][data[1]]), data[4]);
+        }        
+    } );
+  });
+
+  function delete_prod(ref){
+    $("#"+ref).hide();
+    promos[promo_link][0]["produtos"] = promos[promo_link][0]["produtos"].filter(function(value, index, arr){ return value != ref;});
+    helper = find_by_ref(ref);
+    if (helper[2] != undefined){
+      produtos[helper[0]][helper[1]][ref][0]["promocao"] = false;
+      perc = parseInt($("#sale_percentage").val());
+      produtos[helper[0]][helper[1]][ref][0]["precopromocao"] = "0";
+    }
+  }
+
+  function delete_promo(){
+    delete promos[promo_link];
+    onsales_back();
+  }
+
+</script>

@@ -1,0 +1,82 @@
+﻿<div class="container-fluid text-center">
+    <!-- ko with : produto1-->
+    <div class="card mt-4">
+        <div class=" row justify-content-center">
+            <img class="card-img-top img-fluid" style="width: 30%;height:30%;" data-bind="attr:{src:imagem}" alt="">
+        </div>
+        <div class="card-body">
+            <h3 class="card-title" data-bind="text: nome"></h3>
+            <h4 data-bind="text: preco + '€'"></h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!</p>
+            <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span> 4.0 stars
+        </div>
+    </div>
+    <!-- /ko-->
+    <!-- /.card -->
+    <br />
+    <div class="row justify-content-center">
+        <div class="col-lg-2 col-md-4 col col-sm-6">
+            <select class="custom-select" data-bind='options: DepthRepeated ,
+                    optionsCaption: "Choose...", value: qSelect, valueAllowUnset : true'></select>'
+        </div>
+        <div class="col-lg-2 col-md-4 col col-sm-6" data-bind="using: produto1">
+            <a data-bind="click: $parent.addItem" class="btn btn-outline-info"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="container mt-5 p-3">
+    <table class="table table-hover table-active rounded-top rounded-bottom table-borderless ">
+        <tbody data-bind="using: produto1">
+            <tr>
+                <th scope="col">CPU</th>
+                <td data-bind="text: cpu"></td>
+            </tr>
+            <tr>
+                <th scope="col">GPU</th>
+                <td data-bind="text: gpu"></td>
+            </tr>
+            <tr>
+                <th scope="col">Ram</th>
+                <td data-bind="text: ram"></td>
+            </tr>
+            <tr>
+                <th scope="col">Memoria</th>
+                <td data-bind="text: memoria"></td>
+            </tr>
+            <tr>
+                <th scope="col">Tamanho do Ecra</th>
+                <td data-bind="text: ecra"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="row justify-content-center">
+    <div class="col-lg-9">
+
+        <div class="card card-outline-secondary my-4">
+            <div class="card-header">
+                Product Reviews
+            </div>
+            <div class="card-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+                <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+                <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+                <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+                <hr>
+                <a href="#" class="btn btn-success">Leave a Review</a>
+            </div>
+        </div>
+        <!-- /.card -->
+
+    </div>
+    <!-- /.col-lg-9 -->
+</div>
+
+<!-- /.container -->

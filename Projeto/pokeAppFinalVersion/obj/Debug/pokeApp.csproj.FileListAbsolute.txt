@@ -1,0 +1,108 @@
+C:/Projectos/pokemon/pokeApp/bin/pokeApp.dll.config
+C:/Projectos/pokemon/pokeApp/bin/pokeApp.dll
+C:/Projectos/pokemon/pokeApp/bin/pokeApp.pdb
+C:/Projectos/pokemon/pokeApp/bin/Antlr3.Runtime.dll
+C:/Projectos/pokemon/pokeApp/bin/Microsoft.Web.Infrastructure.dll
+C:/Projectos/pokemon/pokeApp/bin/Newtonsoft.Json.dll
+C:/Projectos/pokemon/pokeApp/bin/System.Web.Optimization.dll
+C:/Projectos/pokemon/pokeApp/bin/WebActivator.dll
+C:/Projectos/pokemon/pokeApp/bin/WebGrease.dll
+C:/Projectos/pokemon/pokeApp/bin/Antlr3.Runtime.pdb
+C:/Projectos/pokemon/pokeApp/bin/Newtonsoft.Json.xml
+C:/Projectos/pokemon/pokeApp/bin/System.Web.Optimization.xml
+C:/Projectos/pokemon/pokeApp/obj/Debug/pokeApp.csprojAssemblyReference.cache
+C:/Projectos/pokemon/pokeApp/obj/Debug/pokeApp.csproj.CoreCompileInputs.cache
+C:/Projectos/pokemon/pokeApp/obj/Debug/pokeApp.csproj.CopyComplete
+C:/Projectos/pokemon/pokeApp/obj/Debug/pokeApp.dll
+C:/Projectos/pokemon/pokeApp/obj/Debug/pokeApp.pdb
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/projectworking/pokeApp/bin/pokeApp.dll.config
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/projectworking/pokeApp/bin/pokeApp.dll
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/projectworking/pokeApp/bin/pokeApp.pdb
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/projectworking/pokeApp/bin/Antlr3.Runtime.pdb
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/projectworking/pokeApp/bin/Newtonsoft.Json.xml
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/projectworking/pokeApp/bin/System.Web.Optimization.xml
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/projectworking/pokeApp/obj/Debug/pokeApp.csprojAssemblyReference.cache
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/projectworking/pokeApp/obj/Debug/pokeApp.csproj.CopyComplete
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/projectworking/pokeApp/obj/Debug/pokeApp.dll
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/projectworking/pokeApp/obj/Debug/pokeApp.pdb
+/Users/immystege/Downloads/pokeApp/bin/pokeApp.dll
+/Users/immystege/Downloads/pokeApp/bin/pokeApp.pdb
+/Users/immystege/Downloads/pokeApp/bin/Antlr3.Runtime.pdb
+/Users/immystege/Downloads/pokeApp/bin/Newtonsoft.Json.xml
+/Users/immystege/Downloads/pokeApp/bin/System.Web.Optimization.xml
+/Users/immystege/Downloads/pokeApp/obj/Debug/pokeApp.csprojAssemblyReference.cache
+/Users/immystege/Downloads/pokeApp/obj/Debug/pokeApp.csproj.CopyComplete
+/Users/immystege/Downloads/pokeApp/obj/Debug/pokeApp.dll
+/Users/immystege/Downloads/pokeApp/obj/Debug/pokeApp.pdb
+/Users/immystege/Library/Mobile Documents/com~apple~CloudDocs/Informatica/pokeApp/bin/pokeApp.dll
+/Users/immystege/Library/Mobile Documents/com~apple~CloudDocs/Informatica/pokeApp/bin/pokeApp.pdb
+/Users/immystege/Library/Mobile Documents/com~apple~CloudDocs/Informatica/pokeApp/bin/Antlr3.Runtime.pdb
+/Users/immystege/Library/Mobile Documents/com~apple~CloudDocs/Informatica/pokeApp/bin/Newtonsoft.Json.xml
+/Users/immystege/Library/Mobile Documents/com~apple~CloudDocs/Informatica/pokeApp/bin/System.Web.Optimization.xml
+/Users/immystege/Library/Mobile Documents/com~apple~CloudDocs/Informatica/pokeApp/obj/Debug/pokeApp.csprojAssemblyReference.cache
+/Users/immystege/Library/Mobile Documents/com~apple~CloudDocs/Informatica/pokeApp/obj/Debug/pokeApp.csproj.CopyComplete
+/Users/immystege/Library/Mobile Documents/com~apple~CloudDocs/Informatica/pokeApp/obj/Debug/pokeApp.dll
+/Users/immystege/Library/Mobile Documents/com~apple~CloudDocs/Informatica/pokeApp/obj/Debug/pokeApp.pdb
+C:/Users/pedro/Downloads/pokeApp2 2/pokeApp2/bin/pokeApp.dll.config
+C:/Users/pedro/Downloads/pokeApp2 2/pokeApp2/bin/pokeApp.dll
+C:/Users/pedro/Downloads/pokeApp2 2/pokeApp2/bin/pokeApp.pdb
+C:/Users/pedro/Downloads/pokeApp2 2/pokeApp2/bin/Antlr3.Runtime.pdb
+C:/Users/pedro/Downloads/pokeApp2 2/pokeApp2/bin/Newtonsoft.Json.xml
+C:/Users/pedro/Downloads/pokeApp2 2/pokeApp2/bin/System.Web.Optimization.xml
+C:/Users/pedro/Downloads/pokeApp2 2/pokeApp2/obj/Debug/pokeApp.csprojAssemblyReference.cache
+C:/Users/pedro/Downloads/pokeApp2 2/pokeApp2/obj/Debug/pokeApp.csproj.CopyComplete
+C:/Users/pedro/Downloads/pokeApp2 2/pokeApp2/obj/Debug/pokeApp.dll
+C:/Users/pedro/Downloads/pokeApp2 2/pokeApp2/obj/Debug/pokeApp.pdb
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/pokeApp2 2/pokeApp2/bin/pokeApp.dll.config
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/pokeApp2 2/pokeApp2/bin/pokeApp.dll
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/pokeApp2 2/pokeApp2/bin/pokeApp.pdb
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/pokeApp2 2/pokeApp2/bin/Antlr3.Runtime.pdb
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/pokeApp2 2/pokeApp2/bin/Newtonsoft.Json.xml
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/pokeApp2 2/pokeApp2/bin/System.Web.Optimization.xml
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/pokeApp2 2/pokeApp2/obj/Debug/pokeApp.csprojAssemblyReference.cache
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/pokeApp2 2/pokeApp2/obj/Debug/pokeApp.csproj.CopyComplete
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/pokeApp2 2/pokeApp2/obj/Debug/pokeApp.dll
+C:/Users/pedro/OneDrive - Universidade de Aveiro/Ambiente de Trabalho/pokeApp2 2/pokeApp2/obj/Debug/pokeApp.pdb
+/Users/immystege/Downloads/pokeApp2 2/pokeApp2/bin/pokeApp.dll
+/Users/immystege/Downloads/pokeApp2 2/pokeApp2/bin/pokeApp.pdb
+/Users/immystege/Downloads/pokeApp2 2/pokeApp2/bin/Antlr3.Runtime.pdb
+/Users/immystege/Downloads/pokeApp2 2/pokeApp2/bin/Newtonsoft.Json.xml
+/Users/immystege/Downloads/pokeApp2 2/pokeApp2/bin/System.Web.Optimization.xml
+/Users/immystege/Downloads/pokeApp2 2/pokeApp2/obj/Debug/pokeApp.csprojAssemblyReference.cache
+/Users/immystege/Downloads/pokeApp2 2/pokeApp2/obj/Debug/pokeApp.csproj.CopyComplete
+/Users/immystege/Downloads/pokeApp2 2/pokeApp2/obj/Debug/pokeApp.dll
+/Users/immystege/Downloads/pokeApp2 2/pokeApp2/obj/Debug/pokeApp.pdb
+C:\Users\pedro\Downloads\pokeAppFinalVersion\pokeAppFinalVersion\bin\pokeApp.dll.config
+C:\Users\pedro\Downloads\pokeAppFinalVersion\pokeAppFinalVersion\bin\pokeApp.dll
+C:\Users\pedro\Downloads\pokeAppFinalVersion\pokeAppFinalVersion\bin\pokeApp.pdb
+C:\Users\pedro\Downloads\pokeAppFinalVersion\pokeAppFinalVersion\bin\Antlr3.Runtime.pdb
+C:\Users\pedro\Downloads\pokeAppFinalVersion\pokeAppFinalVersion\bin\Newtonsoft.Json.xml
+C:\Users\pedro\Downloads\pokeAppFinalVersion\pokeAppFinalVersion\bin\System.Web.Optimization.xml
+C:\Users\pedro\Downloads\pokeAppFinalVersion\pokeAppFinalVersion\obj\Debug\pokeApp.csprojAssemblyReference.cache
+C:\Users\pedro\Downloads\pokeAppFinalVersion\pokeAppFinalVersion\obj\Debug\pokeApp.csproj.CopyComplete
+C:\Users\pedro\Downloads\pokeAppFinalVersion\pokeAppFinalVersion\obj\Debug\pokeApp.dll
+C:\Users\pedro\Downloads\pokeAppFinalVersion\pokeAppFinalVersion\obj\Debug\pokeApp.pdb
+C:\Users\pedro\OneDrive - Universidade de Aveiro\Ambiente de Trabalho\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\bin\pokeApp.dll.config
+C:\Users\pedro\OneDrive - Universidade de Aveiro\Ambiente de Trabalho\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\bin\pokeApp.dll
+C:\Users\pedro\OneDrive - Universidade de Aveiro\Ambiente de Trabalho\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\bin\pokeApp.pdb
+C:\Users\pedro\OneDrive - Universidade de Aveiro\Ambiente de Trabalho\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\bin\Antlr3.Runtime.pdb
+C:\Users\pedro\OneDrive - Universidade de Aveiro\Ambiente de Trabalho\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\bin\Newtonsoft.Json.xml
+C:\Users\pedro\OneDrive - Universidade de Aveiro\Ambiente de Trabalho\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\bin\System.Web.Optimization.xml
+C:\Users\pedro\OneDrive - Universidade de Aveiro\Ambiente de Trabalho\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\obj\Debug\pokeApp.csprojAssemblyReference.cache
+C:\Users\pedro\OneDrive - Universidade de Aveiro\Ambiente de Trabalho\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\obj\Debug\pokeApp.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive - Universidade de Aveiro\Ambiente de Trabalho\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\obj\Debug\pokeApp.csproj.CopyComplete
+C:\Users\pedro\OneDrive - Universidade de Aveiro\Ambiente de Trabalho\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\obj\Debug\pokeApp.dll
+C:\Users\pedro\OneDrive - Universidade de Aveiro\Ambiente de Trabalho\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\obj\Debug\pokeApp.pdb
+C:\Users\pedro\OneDrive - Universidade de Aveiro\Ambiente de Trabalho\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\bin\Newtonsoft.Json.dll
+G:\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\bin\pokeApp.dll.config
+G:\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\bin\pokeApp.dll
+G:\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\bin\pokeApp.pdb
+G:\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\bin\Newtonsoft.Json.dll
+G:\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\bin\Antlr3.Runtime.pdb
+G:\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\bin\Newtonsoft.Json.xml
+G:\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\bin\System.Web.Optimization.xml
+G:\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\obj\Debug\pokeApp.csprojAssemblyReference.cache
+G:\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\obj\Debug\pokeApp.csproj.CoreCompileInputs.cache
+G:\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\obj\Debug\pokeApp.csproj.CopyComplete
+G:\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\obj\Debug\pokeApp.dll
+G:\Projeto_YEY\pokeAppFinalVersion\pokeAppFinalVersion\obj\Debug\pokeApp.pdb

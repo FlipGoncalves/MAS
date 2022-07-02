@@ -1,0 +1,62 @@
+{
+    "produtos": [{
+            "tipo": "eletronica",
+            "nome": "Carro telecomandado",
+            "imagem": "https://tinyurl.com/y78vskld",
+            "loja": "Worten",
+            "referencia": "A123A52FasSD",
+            "duracaobateria": "21H",
+            "descricao": "Produto 1 caracteristicas .. asdf...",
+            "price": "13.5"
+        }, {
+            "tipo": "eletronica",
+            "nome": "flashlight",
+            "imagem": "https://tinyurl.com/y78vskld",
+            "loja": "Worten",
+            "referencia": "A123A5bas2FSD",
+            "duracaobateria": "2H",
+            "descricao": "Produto 1 caracteristicas .. asdf...",
+            "price": "13.5"
+        }, {
+            "tipo": "eletronica",
+            "nome": "boneca iterativa",
+            "imagem": "https://tinyurl.com/y78vskld",
+            "loja": "Worten",
+            "referencia": "A123Abadsf52FSD",
+            "duracaobateria": "3H",
+            "descricao": "Produto 1 caracteristicas .. asdf...",
+            "price": "13.5"
+        }, {
+            "tipo": "roupa",
+            "nome": "Camisa Desportiva Homem",
+            "tamanho": "S,L,M",
+            "imagem": "https://tinyurl.com/y78vskld",
+            "loja": "Sportzone",
+            "referencia": "A123A52FS1D",
+            "descricao": "Produto 1 caracteristicas .. asdf...",
+            "price": "13.5"
+        },
+        {
+            "tipo": "roupa",
+            "nome": "Camisa Desportiva Mulher",
+            "tamanho": "M,L",
+            "imagem": "https://tinyurl.com/y78vskld",
+            "loja": "Sportzone",
+            "referencia": "A123A52F2SD",
+            "descricao": "Produto 1 caracteristicas .. asdf...",
+            "price": "13.5"
+        },
+        {
+            "tipo": "roupa",
+            "nome": "calcoes desportivos mulher",
+            "tamanho": "XS",
+            "imagem": "https://tinyurl.com/y78vskld",
+            "loja": "Sportzone",
+            "referencia": "A123A52F4SD",
+            "descricao": "Produto 1 caracteristicas .. asdf...",
+            "price": "13.5"
+        }
+    ]
+
+
+}

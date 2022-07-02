@@ -1,0 +1,159 @@
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-6">
+        <h1>Criar Promoção</h1>
+      </div>
+      <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+          <li class="breadcrumb-item"><a style="cursor: pointer;" onclick="onsales_back()" >Voltar</a></li>
+        </ol>
+      </div>
+    </div>
+  </div><!-- /.container-fluid -->
+</div>
+<!-- Main content -->
+<div class="content">
+  <div class="container-fluid">
+    <div class="card card-default">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="sale_name">Nome</label>
+              <input type="text" class="form-control" id="sale_name" required>
+            </div>
+            <!-- /.form-group -->
+            <div class="form-group">
+              <label for="sale_startDate">Data de Início</label>
+              <div class="input-group date" id="datetimepicker7" data-target-input="nearest">
+                <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker7" id="sale_date_i" required/>
+                <div class="input-group-append" data-target="#datetimepicker7" data-toggle="datetimepicker">
+                  <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                </div>
+              </div>
+            </div>
+            <!-- /.form-group -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-6">
+            <div class="form-group">
+              <label>Percentagem</label>
+              <input type="number" class="form-control" id="sale_percentage" min="0" max="100"/>
+            </div>
+            <!-- /.form-group -->
+            <div class="form-group">
+              <label for="sale_endDate">Data de Fim</label>
+              <div class="input-group date" id="datetimepicker8" data-target-input="nearest">
+                <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker8" id="sale_date_f" required/>
+                <div class="input-group-append" data-target="#datetimepicker8" data-toggle="datetimepicker">
+                  <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                </div>
+              </div>
+            </div>
+            <!-- /.form-group -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-12">
+            <div class="form-group">
+              <label>Referência do Produto</label>
+              <select class="form-control select2bs4"  multiple="multiple" style="width: 100%;" id="ref_sel" required>
+                
+              </select>
+            </div>
+            <!-- /.form-group -->
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.card-body -->
+      <div class="card-footer">
+        <div class="text-right">
+          <a onclick="create_sale()" class="btn btn-sm btn-primary" style="color: white;"><i class="fa fa-plus" aria-hidden="true"></i> Criar </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  
+  $(function () {
+    var sel_refs = '';
+
+    $.each(produtos, function(k, v) {
+      $.each(v, function(kh, vh) {
+        $.each(vh, function(k1, v1) {
+          sel_refs += '<option value="'+v1[0]["referencia"]+'">'+v1[0]["referencia"]+' - '+v1[0]["nome"]+'</option>';
+        });
+      });
+    });
+
+    $("#ref_sel").html(sel_refs);
+
+    //Initialize Select2 Elements
+    $('.select2bs4').select2();
+
+    //Initialize datetimepickers
+    $('#datetimepicker7').datetimepicker({
+      format: 'DD/MM/YYYY'
+    });
+    $('#datetimepicker8').datetimepicker({
+        useCurrent: false,
+        format: 'DD/MM/YYYY'
+    });
+    $("#datetimepicker7").on("change.datetimepicker", function (e) {
+        $('#datetimepicker8').datetimepicker('minDate', e.date);
+    });
+    $("#datetimepicker8").on("change.datetimepicker", function (e) {
+        $('#datetimepicker7').datetimepicker('maxDate', e.date);
+    });
+  });
+
+  function create_sale(){
+    if ($("#sale_name").val() == "" || $("#sale_date_i").val() == "" || $("#sale_date_f").val() == ""|| $("#sale_percentage").val() == "" || $("#ref_sel").val() == ""){
+      const swalWithBootstrapButtons = Swal.mixin({
+        customClass: {
+          confirmButton: 'btn btn-danger'
+        },
+        buttonsStyling: false
+      });
+      swalWithBootstrapButtons.fire(
+        'Preencha todos os campos!',
+        '',
+        'error'
+      );
+    }
+
+    else{
+      promos[$("#sale_name").val()] = [{
+        "percentagem": parseInt($("#sale_percentage").val()),
+        "data_inicio": $("#sale_date_i").val(),
+        "data_fim": $("#sale_date_f").val(),
+        "produtos": $("#ref_sel").val()
+      }];
+
+      // Falta escrever no array de produtos a percentagem de desconto
+
+      $.each($("#ref_sel").val(), function(i){
+        ref = $("#ref_sel").val()[i];
+        helper = find_by_ref(ref);
+        if (helper[2] != undefined){
+          produtos[helper[0]][helper[1]][ref][0]["promocao"] = true;
+          perc = parseInt($("#sale_percentage").val());
+          produtos[helper[0]][helper[1]][ref][0]["precopromocao"] = parseInt(helper[2][0]["preco"]) - parseInt(helper[2][0]["preco"]) * (perc/100);
+        }
+      });
+
+      Swal.fire({
+        icon: 'success',
+        title: 'A sua promoção foi lançada.',
+        showConfirmButton: true,
+      }).then((result) => {
+        if (result.value) {
+          onsales_back();
+        }
+      });
+    }
+  }
+
+</script>
